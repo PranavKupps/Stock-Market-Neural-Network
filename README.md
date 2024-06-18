@@ -10,4 +10,4 @@ Built a Long Short Term Memory neural network with a linear regression layer to 
 
 ## Lessons Learned:
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *wow I actually did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
+I was able to implement technqiues like a neural netowkr and linear regression from my Coursera Machine Learning specialization and create a project about predicting stock prices. I really enjoyed working on a fintech project and hope to create more machine learning projects within the fintech space. I also learned more about various data sources and how to modify datasets so they can be fed into learning models. I really enjoyed working on this project, and I am planning on working on a similiar project where I use rainfall data to predict commodities price movements.
