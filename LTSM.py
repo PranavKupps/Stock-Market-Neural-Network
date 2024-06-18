@@ -153,20 +153,6 @@ plt.ylabel('Mid Price')
 plt.legend(fontsize=18)
 plt.show()
 
-# Connect to MongoDB
-client = MongoClient(mongodb+srv://kpranav:Shiva12345@stockmarketdata.bdukbb9.mongodb.net/?retryWrites=true&w=majority&appName=StockMarketData)
-
-db = client["CSV"]
-collection = db["csv_data_1"]
-
-#Path to CSV file
-csv_file = file_to_save
-
-#Open the CSV file
-with open(csv_file, "r") as file:
-     reader = csv.DictReader(file)
-
-
 class DataGeneratorSeq(object):
 
     def __init__(self,prices,batch_size,num_unroll):
