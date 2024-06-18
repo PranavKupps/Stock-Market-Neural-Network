@@ -153,8 +153,6 @@ plt.ylabel('Mid Price')
 plt.legend(fontsize=18)
 plt.show()
 
-"""
-
 # Connect to MongoDB
 client = MongoClient(mongodb+srv://kpranav:Shiva12345@stockmarketdata.bdukbb9.mongodb.net/?retryWrites=true&w=majority&appName=StockMarketData)
 
@@ -167,10 +165,6 @@ csv_file = file_to_save
 #Open the CSV file
 with open(csv_file, "r") as file:
      reader = csv.DictReader(file)
-
-     #Iterate through each row
-
-"""
 
 
 class DataGeneratorSeq(object):
