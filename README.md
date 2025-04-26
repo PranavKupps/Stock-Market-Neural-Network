@@ -1,5 +1,5 @@
 ## Stock-Market-Neural-Network
-Built a Long Short Term Memory neural network with a linear regression layer to predict stock price movements. Program takes data from AlphaVantage API and uses it to train the model on various stocks. Included example of American Airlines Stock but can be used for any stock.
+Built a Long Short Term Memory neural network with a linear regression layer to predict stock price movements. Program takes data from AlphaVantage API and uses it to train the model on various stocks. Tested against LASSO, Random Forest, and Gradient Boosted models to identify model with highest predictive power. Included example of American Airlines Stock but can be used for any stock.
 
 ## Details:
 
